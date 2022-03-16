@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Clone Microsoft Exercício</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="nav-section-1">
+                <a href="#"><img src="sourcers/microsoft-logo.png" alt="Microsoft Logo"></a>
+                <a class="ext-link" href="#">Microsoft 365</a>
+                <a class="ext-link" href="#">Office</a>
+                <a class="ext-link" href="#">Windows</a>
+                <a class="ext-link" href="#">Xbox</a>
+                <a class="ext-link" href="#">Suporte</a>
+            </div>
+            <div id="nav-section-2">
+                <div><a class="ext-link" href="#">Toda a Microsoft</a>              <i class="material-icons">expand_more</i></div>
+                <div><a id="pesquisar" class="ext-link" href="#">Pesquisar</a>      <i class="material-icons">search</i></div>
+                <div><a id="carrinho" class="ext-link" href="#">Carrinho</a>        <i class="material-icons">shopping_cart</i></div>
+                <div><a id="perfil" href="#">Perfil</a>                             <i class="material-icons">account_circle</i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <input type="radio" name="slide" id="checkboxA" checked onclick="checkSlide()">
+        <input type="radio" name="slide" id="checkboxB" onclick="checkSlide()">
+        <div id="slide">
+            <img id="slide-img" src="sourcers/slide-win11-grande.webp">
+
+            <!-- <p id="ant">ANTERIOR</p> -->
+            <div>
+                <h2 id="slide-h2">Projetado para a vida hoje e amanhã</h2>
+                <p id="slide-p">A próxima geração de jogos. Seus objetivos. Amigos e família. O Windows 11 foi feito para aproximá-lo de tudo que você mais gosta.</p>
+                <a id="slide-a" href="#">Veja se o seu PC está pronto</a>
+            </div>
+            <!-- <p id="pro">PROXIMO</p>
+            <p id="cbs">CHECKBOXS</p> -->
+            
+        </div>
+        
+        <div id="section-A">
+            <div>
+                <img src="sourcers/microsoft-black-logo.png" alt="Microsoft logo">
+                <a href="#">Escolha seu Microsoft 365</a>
+            </div>
+            <div>
+                <img src="sourcers/xbox-black-logo.webp" alt="Xbox logo">
+                <a href="#">Comprar o Xbox</a>
+            </div>
+            <div>
+                <img src="sourcers/microsoft-black-logo.png" alt="Microsoft logo">
+                <a href="#">Adquira o Windows 11</a>
+            </div>
+        </div>
+        
+        <div class="section-B">
+            <div id="container">
+                <div>
+                    <img id="xbox-div" src="sourcers/gamepass-img.jpg" alt="Xbox image">
+                    <h3>Xbox Game Pass Ultimate</h3>
+                    <p>Adquira o primeiro mês de assinatura por R$5. Jogue nos dispositivos que você possui. Inclui o EA Play. Oferta disponível apenas para novos assinantes.</p>
+                    <a class="ext-link" href="#">Assine já</a>
+                </div>
+                <div>
+                    <img id="edge-div" src="sourcers/edge-img.webp" alt="Edge image">
+                    <h3>Microsoft Edge</h3>
+                    <p>Desempenho excepcional com mais privacidade, mais velocidade e mais qualidade durante a navegação.</p>
+                    <a class="ext-link" href="#">Baixe agora</a>
+                </div>
+                <div>
+                    <img id="onedrive-div" src="sourcers/onedrive-img.webp" alt="One Drive image">
+                    <h3>Microsoft OneDrive</h3>
+                    <p>Salve seus arquivos e fotos no OneDrive e acesse-os em qualquer dispositivo, em qualquer lugar.</p>
+                    <a class="ext-link" href="#">Saiba mais</a>
+                </div>
+                <div>
+                    <img id="onenote-div" src="sourcers/onenote-img.webp" alt="One Note image">
+                    <h3>OneNote</h3>
+                    <p>Organize suas anotações e sua vida.</p>
+                    <a class="ext-link" href="#">Saiba mais </a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div id="outlook" onclick="outlookLink()">
+            <div>
+                <h2>Outlook para iOS e Android</h2>
+                <p>Conecte-se. Organize-se. Produza mais.</p>
+                <a>Baixe agora</a>
+            </div>
+            <img src="sourcers/outlook-phns.png" alt="outlook image">
+        </div>
+
+
+
+        <div class="section-B">
+            <h2>Para negócios</h2>
+            <div id="container">
+                <div>
+                    <img src="sourcers/teams-img.webp" alt="">
+                    <h3>Baixe gratuitamente o Microsoft Teams</h3>
+                    <p>Reuniões online, chat e armazenamento em nuvem compartilhado, tudo em um só lugar.</p>
+                    <a class="ext-link" href="#">Inscreva-se gratuitamente </a>
+                </div>
+                <div>
+                    <img src="sourcers/mic365-img.webp" alt="">
+                    <h3>Microsoft 365 para empresas</h3>
+                    <p>Dê um passo à frente com aplicativos avançados para produtividade, conexão e segurança.</p>
+                    <a class="ext-link" href="#">Compre agora</a>
+                </div>
+                <div>
+                    <img src="sourcers/hibrido-img.jpg" alt="">
+                    <h3>Prospere no universo híbrido</h3>
+                    <p>Descubra ferramentas, recursos e estratégias para ajudar seus funcionários a terem sucesso no novo universo do trabalho flexível.</p>
+                    <a class="ext-link" href="#">Saiba mais </a>
+                </div>
+                <div>
+                    <img src="sourcers/win11-img.webp" alt="">
+                    <h3>O Windows 11 para empresas chegou</h3>
+                    <p>Projetado para o trabalho híbrido. Eficiente para os funcionários. Consistente para a TI. Seguro para todos.</p>
+                    <a class="ext-link" href="#">Saiba mais </a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="socials">
+            <p>Siga Microsoft</p>
+            <a href="#"><img src="sourcers/facebook-icon.svg" alt="facebook logo"></a>
+            <a href="#"><img src="sourcers/twitter-icon.svg" alt="twitter logo"></a>
+            <a href="#"><img src="sourcers/youtube-icon.svg" alt="youtube logo"></a>
+            <a href="#"><img src="sourcers/instagram-icon.svg" alt="instagram logo"></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="foot-container-A">
+            <div>
+                <h3>Novidades</h3>
+                <a href="#">Microsoft 365</a>
+                <a href="#">Aplicativos do Windows 11</a>
+            </div>
+            <div>
+                <h3>Microsoft Store</h3>
+                <a href="#">Perfil da conta</a>
+                <a href="#">Centro de Download</a>
+                <a href="#">Suporte da Microsoft Store</a>
+                <a href="#">Devoluções</a>
+                <a href="#">Acompanhamento de pedidos</a>
+            </div>
+            
+            <div>
+                <h3>Educação</h3>
+                <a href="#">Microsoft na educação</a>
+                <a href="#">Office para estudantes</a>
+                <a href="#">Office 365 para escolas</a>
+                <a href="#">Microsoft Azure na Educação</a>
+            </div>
+            
+            <div>
+                <h3>Empresa</h3>
+                <a href="#">Azure</a>
+                <a href="#">AppSource</a>
+                <a href="#">Automotivo</a>
+                <a href="#">Governo</a>
+                <a href="#">Saúde</a>
+                <a href="#">Manufatura</a>
+                <a href="#">Serviços financeiros</a>
+                <a href="#">Varejo</a>
+            </div>
+            
+            <div>
+                <h3>Desenvolvedor</h3>
+                <a href="#">Microsoft Visual Studio</a>
+                <a href="#">Centro de Desenvolvimento do Windows</a>
+                <a href="#">Centro de Desenvolvimento</a>
+                <a href="#">Programa de desenvolvedores da Microsoft</a>
+                <a href="#">Channel 9</a>
+                <a href="#">Centro de desenvolvimento do Microsoft 365</a>
+                <a href="#">Programa de desenvolvedores do Microsoft 365</a>
+            </div>
+            
+            <div>
+                <h3>Empresa</h3>
+                <a href="#">Carreiras</a>
+                <a href="#">Sobre a Microsoft</a>
+                <a href="#">Notícias da empresa</a>
+                <a href="#">Privacidade na Microsoft</a>
+                <a href="#">Investidores</a>
+                <a href="#">Diversidade e inclusão</a>
+                <a href="#">Acessibilidade</a>
+                <a href="#">Segurança</a>
+            </div>
+        </div>
+
+        <div id="foot-container-B">
+            <a href="#">Português (Brasil)</a>
+
+            <div>
+                <a href="#">Entre em contato com a Microsoft</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Gerenciar cookies</a>
+                <a href="#">Ética e Compliance</a>
+                <a href="#">Nota Legal</a>
+                <a href="#">Marcas</a>
+                <a href="#">Sobre os nossos anúncios</a>
+                <a href="#">© Microsoft 2022</a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
